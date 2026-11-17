@@ -1,1 +1,13 @@
-La limpieza del dataset consistió inicialmente en identificar y corregir el formato de lectura del archivo CSV, utilizando el punto y coma (`;`) como separador de columnas. Posteriormente, se revisaron los nombres de los países y las variables para mantener una estructura organizada, y se convirtió la columna **Value** de texto a formato numérico, teniendo en cuenta que los valores decimales utilizan comas en lugar de puntos. Finalmente, se verificó la existencia de datos faltantes y registros duplicados. Se comprobó que los 16 registros no presentan valores faltantes ni duplicados, por lo que se conservaron todos los datos originales para su posterior análisis y visualización.
+## Reglas de análisis
+
+- Responde y comenta el código en español.
+- Nunca modifiques ni borres archivos de `datos/crudo/`.
+- Nunca inventes, completes ni estimes datos. Si falta algo, dilo.
+- Todo cálculo se hace con un script en `analisis/`, numerado (`01_`, `02_`...), que se pueda volver a ejecutar.
+- Los gráficos se hacen con Altair y se guardan en `docs/graficos/` como HTML.
+- Cada gráfico lleva título, ejes con nombre legible, el tamaño de muestra (n) y la fuente.
+- Antes de ejecutar un cambio grande, explícame el plan y espera mi aprobación.
+- Al terminar cada tarea, dime qué archivos creaste o cambiaste.
+- Trabaja solo dentro del alcance del proyecto analítico. Si te pido algo fuera del alcance, avísame antes de hacerlo.
+
+## Alcance del proyecto analítico
